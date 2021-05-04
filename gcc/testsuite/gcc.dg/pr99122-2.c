@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -w" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 static int foo ();
 

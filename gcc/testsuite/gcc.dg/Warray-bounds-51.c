@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wall" }
    { dg-additional-options "-mtune=generic" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void sink (void*);
 
