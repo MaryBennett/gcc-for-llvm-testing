@@ -1,6 +1,7 @@
 /* Same as qual-return-7.c but in C11 mode.
    { dg-do compile }
    { dg-options "-std=gnu11" } */
+/* { dg-require-effective-target nested_func } */
 
 void test_local (void)
 {

@@ -1,6 +1,7 @@
 /* { dg-require-effective-target label_values } */
 /* { dg-require-effective-target trampolines } */
 /* { dg-add-options stack_size } */
+/* { dg-require-effective-target nested_func } */
 
 #ifdef STACK_SIZE
 #define DEPTH ((STACK_SIZE) / 512 + 1)

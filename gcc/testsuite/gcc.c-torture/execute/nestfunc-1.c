@@ -1,4 +1,5 @@
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target nested_func } */
 
 int
 g (int a, int b, int (*gi) (int, int))

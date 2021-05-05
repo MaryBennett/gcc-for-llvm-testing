@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
 /* { dg-options "" } */
+/* { dg-require-effective-target nested_func } */
 
 int
 foo (int x)

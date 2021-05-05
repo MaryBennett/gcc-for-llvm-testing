@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-omit-frame-pointer" } */
+/* { dg-require-effective-target nested_func } */
 
 int __attribute__((noipa)) foo (int i)
 {

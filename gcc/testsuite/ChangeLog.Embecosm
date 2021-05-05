@@ -1,3 +1,23 @@
+2021-05-05  Mary Bennett  <mary.bennett@embecosm.com>
+
+	* gcc.c-torture/execute/920501-7.c: Marked test as requiring
+	nested_func.
+	* gcc.c-torture/execute/921215-1.c: Likewise.
+	* gcc.c-torture/execute/931002-1.c: Likewise.
+	* gcc.c-torture/execute/nestfunc-1.c: Likewise.
+	* gcc.c-torture/execute/nestfunc-2.c: Likewise.
+	* gcc.c-torture/execute/nestfunc-3.c: Likewise.
+	* gcc.dg/nested-func-11.c: Likewise.
+	* gcc.dg/noncompile/pr30552-4.c: Likewise.
+	* gcc.dg/pr89045.c: Likewise.
+	* gcc.dg/pr89340.c: Likewise.
+	* gcc.dg/pr89342.c: Likewise.
+	* gcc.dg/pr94780.c: Likewise.
+	* gcc.dg/pr94842.c: Likewise.
+	* gcc.dg/qual-return-7.c: Likewise.
+	* gcc.dg/qual-return-8.c: Likewise.
+	* gcc.dg/trampoline-1.c: Likewise.
+
 2021-04-29  Mary Bennett  <mary.bennett@embecosm.com>
 
 	* lib/target-supports-dg.exp (dg-require-effective-target-flag): Added
