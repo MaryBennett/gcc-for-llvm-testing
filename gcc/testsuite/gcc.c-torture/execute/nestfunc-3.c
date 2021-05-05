@@ -1,4 +1,5 @@
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target nested_func } */
 
 extern long foo (long, long, long (*) (long, long));
 extern long use (long (*) (long, long), long, long);

@@ -1,6 +1,7 @@
 /* Same as qual-return-3.c but with nested functions.
    { dg-do compile }
    { dg-options "-std=gnu99" } */
+/* { dg-require-effective-target nested_func } */
 
 void test_local (void)
 {

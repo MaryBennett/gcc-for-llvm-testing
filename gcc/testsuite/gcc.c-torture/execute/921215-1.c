@@ -1,4 +1,5 @@
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target nested_func } */
 
 main()
 {

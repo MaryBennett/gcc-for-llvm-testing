@@ -1,6 +1,7 @@
 /* PR c/89340 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target nested_func } */
 
 void bar (void)
 {
