@@ -3,6 +3,7 @@
 /* { dg-options "-w" } */
 /* { dg-do run } */
 /* { dg-additional-sources "atomic-lockfree-aux.c" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that __atomic_{is,always}_lock_free builtins execute.
    sync-mem-lockfree-aux.c supplies and external entry point for 

@@ -3,7 +3,8 @@
    Verify that out-of-bounds memcpy calls are not folded even when
    warnings are disabled.
    { dg-do compile }
-   { dg-options "-O2 -w -fdump-tree-optimized" } */
+   { dg-options "-O2 -w -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 extern void* memcpy (void*, const void*, __SIZE_TYPE__);
 

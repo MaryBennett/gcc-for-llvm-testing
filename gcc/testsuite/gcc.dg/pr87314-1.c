@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-original" } */
+/* { dg-require-effective-target-flag { -fdump-tree-original } } */
 
 int f(){ int a; return &a==(void *)"hello"; }
 int g(){ return "bye"=="hello"; }

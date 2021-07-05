@@ -1,6 +1,7 @@
 /* PR rtl-optimization/89795 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-dce -fno-forward-propagate -fno-sched-pressure" } */
+/* { dg-require-effective-target-flag { -fno-dce -fno-forward-propagate -fno-sched-pressure } } */
 
 unsigned char a;
 unsigned b, c, d;

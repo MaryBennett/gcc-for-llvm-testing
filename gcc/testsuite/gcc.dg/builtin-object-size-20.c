@@ -2,7 +2,8 @@
    a flexible array of an extern struct
    { dg-do compile }
    { dg-options "-O -Wall -fdump-tree-optimized" }
-   { dg-skip-if "test assumes that structs have padding" { default_packed } } */
+   { dg-skip-if "test assumes that structs have padding" { default_packed } }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 #define ASSERT(expr) ((expr) ? (void)0 : fail (__LINE__))
 #define bos0(expr) __builtin_object_size (expr, 1)

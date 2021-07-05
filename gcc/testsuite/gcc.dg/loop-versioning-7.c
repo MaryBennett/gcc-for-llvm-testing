@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* Check that versioning can handle arrays of structures.  */
 

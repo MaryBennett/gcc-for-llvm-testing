@@ -4,7 +4,8 @@
    not evaluated.
 
   { dg-do compile }
-  { dg-options "-O2 -Wall -Wc++-compat -fdump-tree-optimized -ftrack-macro-expansion=0" }  */
+  { dg-options "-O2 -Wall -Wc++-compat -fdump-tree-optimized -ftrack-macro-expansion=0" }
+  { dg-require-effective-target-flag { -fdump-tree-optimized -ftrack-macro-expansion=0 } } */
 
 #define ATTR(list) __attribute__ (list)
 

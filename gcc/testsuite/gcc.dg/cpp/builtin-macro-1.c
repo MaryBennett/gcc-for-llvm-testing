@@ -5,7 +5,8 @@
    the function-like macro expansion it's part of.
 
    { dg-do run }
-   { do-options -no-integrated-cpp }  */
+   { do-options -no-integrated-cpp }
+   { dg-require-effective-target gcc_frontend } */
 
 #include <assert.h>
 

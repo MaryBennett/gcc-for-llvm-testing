@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -flive-patching=inline-only-static -fdump-ipa-inline" } */
+/* { dg-require-effective-target-flag { -flive-patching=inline-only-static -fdump-ipa-inline } } */
 
 extern int sum, n, m;
 

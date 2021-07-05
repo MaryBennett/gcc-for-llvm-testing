@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target inf } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 int foo(int x)
 {

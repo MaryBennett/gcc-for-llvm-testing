@@ -1,7 +1,5 @@
 /* __builtin_va_arg_pack () builtin tests.  */
-/* llvm won't implement this: https://llvm.org/bugs/show_bug.cgi?id=17457 */
-/* { dg-require-effective-target not_llvm } */
-
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target builtin_va_arg_pack } */
 
 #include <stdarg.h>

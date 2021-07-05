@@ -3,8 +3,9 @@
 /* { dg-options "-w" } */
 /* { dg-do run } */
 /* { dg-additional-sources "atomic-generic-aux.c" } */
+/* { dg-require-effective-target gcc_frontend } */
 
-/* Test that the generioc atomic builtins execute as expected..
+/* Test that the generic atomic builtins execute as expected.
    sync-mem-generic-aux.c supplies a functional external entry point for 
    the 4 generic functions.  */
 

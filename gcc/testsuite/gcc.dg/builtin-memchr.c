@@ -4,7 +4,8 @@
    literals finds the nul only when it is present in the wide string.
 
    { dg-do compile }
-   { dg-options "-O1 -Wall -fshort-wchar -fdump-tree-optimized" } */
+   { dg-options "-O1 -Wall -fshort-wchar -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;

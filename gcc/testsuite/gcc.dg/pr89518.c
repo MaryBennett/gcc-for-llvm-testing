@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-original" } */
+/* { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 unsigned foo (unsigned a, unsigned b)
 {

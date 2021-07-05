@@ -1,6 +1,7 @@
 /* Test that setting -Os in a function attribute works.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-bbro" } */
+/* { dg-require-effective-target-flag { -ffat-lto-objects -fdump-rtl-bbro } } */
 
 extern void f1 ();
 extern int f2 ();

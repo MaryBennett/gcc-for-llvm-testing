@@ -1,6 +1,7 @@
 /* { dg-do run { target double64 } } */
 /* { dg-options "-O -fno-signed-zeros -fdump-tree-ccp1" } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target-flag { -fdump-tree-ccp1 } } */
 
 typedef double v4df __attribute__ ((vector_size (32)));
 

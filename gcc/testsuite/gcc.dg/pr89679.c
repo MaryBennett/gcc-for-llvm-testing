@@ -1,6 +1,7 @@
 /* PR rtl-optimization/89679 */
 /* { dg-do run } */
 /* { dg-options "-Og -frerun-cse-after-loop -fno-tree-fre" } */
+/* { dg-require-effective-target-flag { -frerun-cse-after-loop -fno-tree-fre } } */
 
 unsigned short g;
 

@@ -1,6 +1,7 @@
 /* PR tree-optimization/99079 */
 /* { dg-do compile { target { lp64 || ilp32 } } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 unsigned int
 foo1 (unsigned int a, unsigned int b)

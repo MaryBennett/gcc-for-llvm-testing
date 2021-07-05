@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* There's no information about whether STEP1 or STEP2 is innermost,
    so we should assume the code is sensible and version for the inner

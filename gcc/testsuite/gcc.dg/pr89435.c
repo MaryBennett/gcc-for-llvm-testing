@@ -1,6 +1,7 @@
 /* PR rtl-optimization/89435 */
 /* { dg-do run } */
 /* { dg-options "-O1 -fno-forward-propagate -fno-tree-forwprop -fno-tree-ccp" } */
+/* { dg-require-effective-target-flag { -fno-forward-propagate -fno-tree-forwprop -fno-tree-ccp } } */
 
 unsigned short a;
 unsigned int b, c, d, e, f;

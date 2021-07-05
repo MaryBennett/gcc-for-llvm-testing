@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* Test that we don't try to version for a step of 1 when that would
    cause the iterations to leave a gap between accesses.  */

@@ -4,7 +4,8 @@
    enabled (builtin-memcpy-2.c verifies they're not folded with warnings
    disabled).
    { dg-do compile }
-   { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+   { dg-options "-O2 -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 extern void* memcpy (void*, const void*, __SIZE_TYPE__);
 

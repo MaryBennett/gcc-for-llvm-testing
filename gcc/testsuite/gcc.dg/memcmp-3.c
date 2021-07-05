@@ -2,7 +2,8 @@
    { dg-do compile }
    { dg-options "-O -Wall -fdump-tree-optimized" }
    { dg-skip-if "missing data representation" { "pdp11-*-*" } }
-   { dg-skip-if "test assumes structs are not packed" { default_packed } } */
+   { dg-skip-if "test assumes structs are not packed" { default_packed } }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 #define offsetof(T, m) __builtin_offsetof (T, m)
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgimple -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fgimple -fdump-tree-optimized } } */
 
 int a, b;
 

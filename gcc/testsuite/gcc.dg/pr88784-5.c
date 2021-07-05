@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ifcombine" } */
+/* { dg-require-effective-target-flag { -fdump-tree-ifcombine } } */
 
 #include <limits.h>
 

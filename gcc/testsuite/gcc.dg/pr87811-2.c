@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-profile_estimate" } */
+/* { dg-require-effective-target-flag { -fdump-tree-profile_estimate } } */
 
 void bar (void);
 

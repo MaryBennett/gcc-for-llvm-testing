@@ -1,6 +1,7 @@
 /* PR middle-end/78257 - missing memcmp optimization with constant arrays
    { dg-do compile }
-   { dg-options "-O -Wall -fdump-tree-optimized" } */
+   { dg-options "-O -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 #define assert(e) ((e) ? (void)0 : __builtin_abort ())
 

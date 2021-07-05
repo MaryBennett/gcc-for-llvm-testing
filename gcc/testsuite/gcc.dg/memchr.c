@@ -1,6 +1,7 @@
 /* PR middle-end/78257 - missing memcmp optimization with constant arrays
    { dg-do compile }
    { dg-options "-O -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } }
    { dg-skip-if "test assumes structs are not packed" { default_packed } } */
 
 typedef __INT8_TYPE__  int8_t;
