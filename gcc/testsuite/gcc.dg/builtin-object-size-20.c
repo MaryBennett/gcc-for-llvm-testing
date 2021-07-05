@@ -1,7 +1,8 @@
 /* PR middle-end/92815 - spurious -Wstringop-overflow writing into
    a flexible array of an extern struct
    { dg-do compile }
-   { dg-options "-O -Wall -fdump-tree-optimized" } */
+   { dg-options "-O -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 #define ASSERT(expr) ((expr) ? (void)0 : fail (__LINE__))
 #define bos0(expr) __builtin_object_size (expr, 1)

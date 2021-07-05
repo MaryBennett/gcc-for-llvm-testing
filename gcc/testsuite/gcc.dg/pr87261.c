@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-original" } */
+/* { dg-require-effective-target-flag { -fdump-tree-original } } */
 
 int f1 (int a, int b)
 {

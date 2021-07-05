@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-evrp -fno-tree-ccp -fno-tree-forwprop -fno-tree-fre" } */
+/* { dg-require-effective-target-flag { -fdump-tree-evrp -fno-tree-ccp -fno-tree-forwprop -fno-tree-fre } } */
 
 void kill (void);
 

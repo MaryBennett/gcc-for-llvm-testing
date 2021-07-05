@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgimple -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fgimple -fdump-tree-optimized } } */
 
 int __GIMPLE() f(int c)
 {

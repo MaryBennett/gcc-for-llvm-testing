@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* The read from y in f1 will be hoisted to the outer loop.  In general
    it's not worth versioning outer loops when the inner loops don't also

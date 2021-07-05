@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgimple -fdump-tree-slsr" } */
+/* { dg-require-effective-target-flag { -fgimple -fdump-tree-slsr } } */
 
 int __GIMPLE (ssa,startwith("slsr"),guessed_local(1073741824))
 main (int argc)

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fsplit-loops" } */
+/* { dg-require-effective-target-flag { -fsplit-loops } } */
 
 int a, b, c;
 

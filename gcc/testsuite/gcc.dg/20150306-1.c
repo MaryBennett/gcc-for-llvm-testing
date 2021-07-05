@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target size32plus } */
 /* { dg-options "-fstrict-volatile-bitfields" } */
+/* { dg-require-effective-target-flag { -fstrict-volatile-bitfields } } */
 
 struct s
 {

@@ -1,7 +1,8 @@
 /* Verify that memchr calls with a pointer to a constant character
    are folded as expected.
    { dg-do compile }
-   { dg-options "-O1 -Wall -fdump-tree-gimple" } */
+   { dg-options "-O1 -Wall -fdump-tree-gimple" }
+   { dg-require-effective-target-flag { -fdump-tree-gimple } } */
 
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;

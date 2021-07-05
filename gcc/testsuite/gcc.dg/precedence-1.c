@@ -3,6 +3,7 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
 /* { dg-additional-options "-Wno-unused-value" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { int *a; } *p, q, *r[2], *g();
 int *i[2];

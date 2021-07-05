@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-ccp1" } */
+/* { dg-require-effective-target-flag { -fdump-tree-ccp1 } } */
 
 typedef int v4si __attribute__ ((vector_size (16)));
 

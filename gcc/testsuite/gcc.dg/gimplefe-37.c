@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgimple -fdump-tree-optimized --param=gimple-fe-computed-hot-bb-threshold=10 " } */
+/* { dg-require-effective-target-flag { -fgimple -fdump-tree-optimized } } */
 
 int __GIMPLE (ssa,startwith("slsr"),precise(3))
 main (int argc)

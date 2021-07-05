@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fpermitted-flt-eval-methods=c11" } */
+/* { dg-require-effective-target-flag { -fpermitted-flt-eval-methods=c11 } } */
 
 /* Test that we only see the C99/C11 values for __FLT_EVAL_METHOD__ if
    we are compiling with -fpermitted-flt-eval-methods=c11.  */

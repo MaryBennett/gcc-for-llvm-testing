@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 #define __GFP_DMA 1u
 #define __GFP_RECLAIM 0x10u

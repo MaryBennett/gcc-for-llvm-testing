@@ -1,5 +1,6 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
 /* { dg-require-effective-target size20plus } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* Versioning for step == 1 in these loops would allow loop interchange,
    but otherwise isn't worthwhile.  At the moment we decide not to version.  */

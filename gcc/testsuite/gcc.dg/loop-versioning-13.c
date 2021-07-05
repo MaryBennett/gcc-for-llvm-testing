@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* Test that we do version for a step of 1 when that would lead the
    iterations to access consecutive groups.  */

@@ -7,6 +7,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort(void);
 

@@ -2,7 +2,8 @@
    Verify that attribute noreturn (represented as volatile on function
    decls) is interpreted correctly and doesn't affect variables.
    { dg-do compile }
-   { dg-options "-O1 -Wall -fdump-tree-optimized" }*/
+   { dg-options "-O1 -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 #define ATTR(...)   __attribute__ ((__VA_ARGS__))
 #define ASRT(expr)   _Static_assert (expr, #expr)

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that asm with no outputs are treated as volatile.  */
 

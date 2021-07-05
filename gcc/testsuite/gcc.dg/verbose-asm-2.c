@@ -1,6 +1,7 @@
 /* Ensure that the -fverbose-asm leads to source code information in the generated asm.  */
 /* { dg-options "-fverbose-asm" } */
 /* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend }*/
 
 int test (int n)
 {

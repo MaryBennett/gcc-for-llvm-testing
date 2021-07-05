@@ -1,6 +1,7 @@
 /* PR tree-optimization/88372 - alloc_size attribute is ignored
    on function pointers { dg-do compile }
-   { dg-options "-O2 -fdump-tree-optimized" } */
+   { dg-options "-O2 -fdump-tree-optimized" }
+   { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 typedef __SIZE_TYPE__ size_t;
 

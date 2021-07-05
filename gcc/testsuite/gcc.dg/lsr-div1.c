@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -fdump-rtl-combine-all" } */
 /* { dg-options "-O2 -fdump-rtl-combine-all -mtune=cortex-a53" { target aarch64*-*-* } } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target-flag { -ffat-lto-objects -fdump-rtl-combine-all } } */
 
 extern void abort (void);
 

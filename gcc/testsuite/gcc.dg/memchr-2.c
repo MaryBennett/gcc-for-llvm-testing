@@ -1,6 +1,7 @@
 /* PR tree-optimization/96670 - ICE on memchr with an empty initializer
    { dg-do compile }
    { dg-options "-O -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 struct {
   int i, j;

@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-lversion-details" } */
+/* { dg-require-effective-target-flag { -fdump-tree-lversion-details } } */
 
 /* Test that we don't try to version for something that is never 1.  */
 

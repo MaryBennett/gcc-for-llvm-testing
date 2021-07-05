@@ -2,6 +2,7 @@
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-require-effective-target label_values } */
 /* { dg-options "-O2 -fdump-tree-profile_estimate" } */
+/* { dg-require-effective-target-flag { -fdump-tree-profile_estimate } } */
 
 int a, b;
 

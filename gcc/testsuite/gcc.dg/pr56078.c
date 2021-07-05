@@ -1,6 +1,7 @@
 /* PR c/56078 */
 /* { dg-do run } */
 /* { dg-options "-std=gnu99" } */
+/* { dg-require-effective-target flexible_array_member_static_init } */
 
 typedef __SIZE_TYPE__ size_t;
 extern int memcmp (const void *, const void *, size_t);

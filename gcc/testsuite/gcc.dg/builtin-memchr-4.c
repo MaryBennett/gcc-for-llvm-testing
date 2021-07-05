@@ -2,7 +2,8 @@
    Verify that memchr calls with a pointer to a constant character
    are folded as expected.
    { dg-do compile }
-   { dg-options "-O1 -Wall -fdump-tree-release_ssa" } */
+   { dg-options "-O1 -Wall -fdump-tree-release_ssa" }
+   { dg-require-effective-target-flag { -fdump-tree-release_ssa } } */
 
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;

@@ -1,6 +1,7 @@
 /* PR middle-end/90095 */
 /* { dg-do run } */
 /* { dg-options "-Os -fno-tree-bit-ccp" } */
+/* { dg-require-effective-target-flag { -fdump-tree-bit-ccp } } */
 
 unsigned long long a;
 unsigned int b;

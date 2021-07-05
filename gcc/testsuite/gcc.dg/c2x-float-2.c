@@ -3,6 +3,7 @@
 /* { dg-do run } */
 /* { dg-options "-std=c2x -w" } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <float.h>
 

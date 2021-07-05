@@ -1,5 +1,6 @@
 /* { dg-do compile }
-   { dg-options "-fdump-tree-gimple" } */
+   { dg-options "-fdump-tree-gimple" }
+   { dg-require-effective-target-flag { -fdump-tree-gimple } } */
 
 __attribute__ ((aligned (32)))
 __attribute__ ((access (write_only, 2, 1)))

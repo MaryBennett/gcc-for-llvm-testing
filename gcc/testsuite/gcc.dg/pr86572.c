@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target-flag { -fdump-tree-optimized } } */
 
 const char buf[40] = "test";
 void test (int x)
